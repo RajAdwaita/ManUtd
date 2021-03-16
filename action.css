@@ -327,16 +327,20 @@ form button:hover{
     }
 
     .container{
+        display: flex;
         flex-direction: column;
-        width: 110%;
+        /* width: 250px; */
+        /* margin-left: -35px; */
     }
     .card{
-        margin: 1px;
-        margin-bottom: 15px;
+        margin: 10px;
+        /* margin-bottom: 15px; */
+
     }
 
     .page4{
         padding: 15px 10px;
+        height: 100%;
         /* margin-bottom: 2px; */
     }
     .page4-div{ 
@@ -347,16 +351,19 @@ form button:hover{
         width: 100%;
     }
     .page4-div form{
-        height: 41.2vh;
-        padding: 15px;
-        margin-bottom: 14px;
+        height: 45vh;
+        padding: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 1px;
     }
     .page4-div img{
         height: 30vh;
     }
     .footer{
+        /* margin-top: 16px; */
         margin-bottom: 0px;
-        padding: 5px;
-        position: relative;
+        /* padding: 5px; */
+        /* position: relative; */
+        
     }
 }
