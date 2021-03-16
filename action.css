@@ -222,7 +222,7 @@ form{
 }
 
 form input,form textarea{
-    margin: 20px 0;
+    margin: 10px 0;
     background-color: rgb(219, 175, 79);
     padding: 8px;
     text-decoration: none;
@@ -266,18 +266,20 @@ form button:hover{
 .footer{
     background: black;
     color: white;
-    padding: 15px 20%;
+    padding: 40px 20%;
     text-align: center;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 700px) and (min-width: 200px)
 {
     .top ul{
         display: none;
     }
-    .top{
-        text-align: center; 
+
+    .top a{
+        margin: 0 auto;
     }
+    
 
     
 
@@ -296,8 +298,53 @@ form button:hover{
 
     .page2{
         flex-direction: column;
+        /* margin-right: 0%; */
     }
     #ul1{
         display: none;
+    }
+
+    .page2 img, .about{
+        width: 100%;
+    }
+
+    .about{
+        padding: 10px;
+    }
+
+    .page2{
+        padding: 15px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    .card{
+        margin: 1px;
+        margin-bottom: 20px;
+    }
+
+    .page4{
+        padding: 15px 10px;
+        /* margin-bottom: 2px; */
+    }
+    .page4-div{
+        padding-bottom:18px: ;
+        flex-direction: column;
+    }
+    .page4-div img,form{
+        width: 100%;
+    }
+    .page4-div form{
+        height: 41.2vh;
+        padding: 15px;
+        margin-bottom: 14px;
+    }
+    .page4-div img{
+        height: 30vh;
+    }
+    .footer{
+        margin-bottom: 0px;
+        padding: 5px;
     }
 }
