@@ -279,21 +279,31 @@ form button:hover{
     .top a{
         margin: 0 auto;
     }
+    .l1{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
     
 
     
 
     .p1body{
         top: 20%;
+        width
     }
 
     .p1body h2{
-        font-size: 36px;
+        font-size: 30px;
         margin-bottom: 20;
     }
 
     .p1body p{
-        font-size: 18px;
+        font-size: 15px;
+        width: 80%;
+        text-align: center;
+        margin-left:45px;
     }
 
     .page2{
@@ -318,10 +328,11 @@ form button:hover{
 
     .container{
         flex-direction: column;
+        width: 80%;
     }
     .card{
         margin: 1px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .page4{
@@ -346,5 +357,6 @@ form button:hover{
     .footer{
         margin-bottom: 0px;
         padding: 5px;
+        position: relative;
     }
 }
