@@ -328,7 +328,7 @@ form button:hover{
 
     .container{
         flex-direction: column;
-        width: 80%;
+        width: 110%;
     }
     .card{
         margin: 1px;
