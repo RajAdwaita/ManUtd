@@ -60,6 +60,8 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     letter-spacing: 2px;
+    text-align: center;
+    /* position: relative; */
 }
 
 .top ul li{
@@ -103,17 +105,19 @@ html{
     top: 37%;
     
     max-width: 100%;
-    font-size: 35px;
+    font-size: 25px;
     padding: 0 5%;
 }
 
 
 .p1body h2{
-    font-size: 66px;
+    font-size: 46px;
+    
 }
 
 .p1body p{
-    font-size: 29px;
+    font-size: 23px;
+
 }
 
 .page2{
@@ -164,8 +168,8 @@ html{
 }
 
 .container{
-    width: 86%;
-    margin: 45px auto;
+    width: 80%;
+    margin: 40px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -174,26 +178,30 @@ html{
 }
 .card{
     border:2px solid white ;
-    border-radius: 25px;
-    margin: 33px;
-    padding: 18px 0;
-    transition: 0.5s ease;
+    border-radius: 35px;
+    margin: 40px;
+    padding: 10px 0;
+    transition: 0.4s ease;
 
     
 }
+.card h3, .card p{
+    border-radius: 25px;
+}
 .container :hover{
     background: rgb(247, 44, 44);
+    /* border-radius: 25px; */
 }
 
 
 .card img{
     width: 100%;
-    height: 320px;
+    height: 240px;
 }
 
 .card h3{
     padding top: 0px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .page4{
@@ -201,34 +209,34 @@ html{
     padding: 100px;
     text-align: center;
     color: white;
-    height: 115vh;
+    /* height: 115vh; */
 }
 .page4-div{
     display: flex;
-    width: 70%;
-    margin: 45px auto;
+    width: 80%;
+    margin: 50px auto;
 
 }
 
 .page4-div img{
-    width: 75%;
+    width: 50%;
 }
 form{
     display: flex;
     flex-direction: column;
     width: 50%;
     background-color: rgb(219, 175, 79);
-    padding: 65px;
+    padding: 50px;
 }
 
 form input,form textarea{
     margin: 10px 0;
     background-color: rgb(219, 175, 79);
-    padding: 8px;
+    padding: 5px;
     text-decoration: none;
     outline: none;
     border: none;
-    font-size: 19px;
+    font-size: 15px;
     border-bottom: 2px solid black;
 }
 form button {
@@ -266,7 +274,7 @@ form button:hover{
 .footer{
     background: black;
     color: white;
-    padding: 40px 20%;
+    padding: 20px 15%;
     text-align: center;
 }
 
@@ -280,10 +288,10 @@ form button:hover{
         margin: 0 auto;
     }
     .l1{
-        font-size: 35px;
+        font-size: 32px;
         width: 100%;
         text-align: center;
-        justify-content: center;
+        /*justify-content: center; */
     }
     
 
@@ -291,19 +299,19 @@ form button:hover{
 
     .p1body{
         top: 20%;
-        width
+        
     }
 
     .p1body h2{
-        font-size: 30px;
-        margin-bottom: 20;
+        font-size: 36px;
+        margin-bottom: 20px;
     }
 
     .p1body p{
-        font-size: 15px;
-        width: 80%;
+        font-size: 18 px;
+        /* width: 80%;
         text-align: center;
-        margin-left:45px;
+        margin-left:45px; */
     }
 
     .page2{
@@ -322,25 +330,34 @@ form button:hover{
         padding: 10px;
     }
 
-    .page2{
+    .page3{
         padding: 15px;
     }
 
     .container{
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
+        margin: 25px auto;
         /* width: 250px; */
         /* margin-left: -35px; */
     }
     .card{
-        margin: 10px;
+        /* margin: 10px; */
+        /* display: block; */
+        display: flexbox;
         /* margin-bottom: 15px; */
 
     }
 
+    .card img{
+        height: 100px;
+        width: 100px;
+        /* padding: 20px; */
+    }
+
     .page4{
-        padding: 15px 10px;
-        height: 100%;
+        padding: 15px ;
+        /* height: 100%; */
         /* margin-bottom: 2px; */
     }
     .page4-div{ 
@@ -359,11 +376,10 @@ form button:hover{
     .page4-div img{
         height: 30vh;
     }
-    .footer{
-        /* margin-top: 16px; */
-        margin-bottom: 0px;
-        /* padding: 5px; */
-        /* position: relative; */
-        
+    
+    .page3 p{
+        width: 100%;
+        /* padding: -10px; */
+
     }
 }
